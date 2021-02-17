@@ -132,7 +132,8 @@ a:visited {
 }
 
 .nav-btn {
-  margin-left: 310px;
+  position: absolute;
+  right: 15px;
   white-space: nowrap;
   padding-left: 20px;
 }
@@ -140,6 +141,7 @@ a:visited {
 .icons {
   white-space: nowrap;
   padding-right: 20px;
+  padding-left: 20px;
 }
 
 .icons span {
