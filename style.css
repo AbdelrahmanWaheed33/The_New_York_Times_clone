@@ -14,8 +14,10 @@
 
 .navimg {
   max-height: 30px;
-  margin-left: 380px;
   margin-right: 300px;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
 }
 
 .left-btn {
@@ -26,6 +28,7 @@
 }
 
 .flex-container {
+  z-index: 999;
   padding-top: 10px;
   background-color: white;
   position: fixed;
